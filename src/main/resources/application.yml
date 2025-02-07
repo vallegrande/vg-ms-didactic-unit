@@ -8,7 +8,7 @@ spring:
         name: vg-ms-didactic-unit
     data:
         mongodb:
-            uri: mongodb+srv://amirarbieto:n1230IGFtm6682Kj@artemiosolutions.pripjnm.mongodb.net/artemiosolutions?retryWrites=true&w=majority
+            uri: mongodb+srv://gabrielgutierrezq:3mbmCx8Gx6hrRKHY@as221s5prs2.1e7z9.mongodb.net/AS221S5PRS2?retryWrites=true&w=majority
 
 # Empoit de actuator  
 api:
