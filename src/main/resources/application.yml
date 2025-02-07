@@ -1,0 +1,30 @@
+# External Services
+server:
+    port: ${SERVER_PORT:8087}
+
+# spring boot configurations
+spring:
+    application:
+        name: vg-ms-didactic-unit
+    data:
+        mongodb:
+            uri: mongodb+srv://amirarbieto:n1230IGFtm6682Kj@artemiosolutions.pripjnm.mongodb.net/artemiosolutions?retryWrites=true&w=majority
+
+# Empoit de actuator  
+api:
+   version: api/v1
+
+# Swagger
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /api/staff
+
+# External services
+services:
+    study-program:
+        url: ${STUDY_PROGRAMME_SERVICE_URL:http://localhost:8086/common/api/v1/study-program}
+
+
+#Demo Slack Integración
